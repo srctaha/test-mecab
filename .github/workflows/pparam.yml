@@ -27,11 +27,10 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Set up test environment
-        run: brew install mecab mecab-ipadic python@3.8
+        run: brew install mecab mecab-ipadic
 
       # Runs a set of commands using the runners shell
       - name: Execute the experiment
         run: |
-          python --version
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          python3 --version
+          echo HERE
