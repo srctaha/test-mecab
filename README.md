@@ -1,1 +1,3 @@
-# test-mecab
+# Various tests on MeCab
+
+## `-p` param
