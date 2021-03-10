@@ -36,4 +36,6 @@ jobs:
       - name: Execute the experiment
         run: |
           python --version
-          echo HERE
+          python -m pip install -r requirements.txt
+          python -m unidic download
+          python run.py
